@@ -1,0 +1,59 @@
+@media (max-width: 1200px) {
+  .offer .about-image img {
+    height: 151vh;
+  }
+  .footer-section .row .ft-img {
+    margin-right: 8px;
+    margin-top: 4px;
+    padding: 4px;
+  }
+  .header::before {
+    top: 207px;
+  }
+}
+@media (max-width: 1024px) {
+  .offer .about-image img {
+    height: 150vh;
+  }
+}
+
+@media (max-width: 992px) {
+  .offer .about-image img {
+    height: 91rem;
+  }
+  .header::before {
+    top: 368px;
+  }
+
+  .services .text-area h3,
+  .services .text-area p {
+    text-align: center;
+  }
+  .offer .text-area h3,
+  .offer .text-area p {
+    text-align: left;
+  }
+  .footer-section .row .ft-link {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .courses-section .row .col-md-3 {
+    margin-bottom: 30px;
+  }
+  .courses-section .row p {
+    align-items: center;
+    justify-content: center;
+  }
+  .courses-section .row p span {
+    padding: 0 40px;
+  }
+  .teachers-section .staff img {
+    width: 100%;
+  }
+  .carousel-item h1 {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+}
